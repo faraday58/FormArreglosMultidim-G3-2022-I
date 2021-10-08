@@ -47,17 +47,19 @@ namespace FormArreglosMultidim_G3_2022_I
             // 
             // txtbMatriz
             // 
-            this.txtbMatriz.Location = new System.Drawing.Point(160, 75);
+            this.txtbMatriz.Location = new System.Drawing.Point(87, 41);
+            this.txtbMatriz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtbMatriz.Name = "txtbMatriz";
-            this.txtbMatriz.Size = new System.Drawing.Size(542, 29);
+            this.txtbMatriz.Size = new System.Drawing.Size(297, 20);
             this.txtbMatriz.TabIndex = 0;
             // 
             // btnSuma
             // 
             this.btnSuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.85714F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuma.Location = new System.Drawing.Point(160, 315);
+            this.btnSuma.Location = new System.Drawing.Point(87, 171);
+            this.btnSuma.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSuma.Name = "btnSuma";
-            this.btnSuma.Size = new System.Drawing.Size(136, 59);
+            this.btnSuma.Size = new System.Drawing.Size(74, 32);
             this.btnSuma.TabIndex = 1;
             this.btnSuma.Text = "+";
             this.btnSuma.UseVisualStyleBackColor = true;
@@ -65,9 +67,10 @@ namespace FormArreglosMultidim_G3_2022_I
             // btnResta
             // 
             this.btnResta.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.85714F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResta.Location = new System.Drawing.Point(338, 315);
+            this.btnResta.Location = new System.Drawing.Point(184, 171);
+            this.btnResta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnResta.Name = "btnResta";
-            this.btnResta.Size = new System.Drawing.Size(136, 59);
+            this.btnResta.Size = new System.Drawing.Size(74, 32);
             this.btnResta.TabIndex = 1;
             this.btnResta.Text = "-";
             this.btnResta.UseVisualStyleBackColor = true;
@@ -75,9 +78,10 @@ namespace FormArreglosMultidim_G3_2022_I
             // btnMult
             // 
             this.btnMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMult.Location = new System.Drawing.Point(518, 315);
+            this.btnMult.Location = new System.Drawing.Point(283, 171);
+            this.btnMult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMult.Name = "btnMult";
-            this.btnMult.Size = new System.Drawing.Size(136, 59);
+            this.btnMult.Size = new System.Drawing.Size(74, 32);
             this.btnMult.TabIndex = 1;
             this.btnMult.Text = "x";
             this.btnMult.UseVisualStyleBackColor = true;
@@ -85,74 +89,84 @@ namespace FormArreglosMultidim_G3_2022_I
             // btnSen
             // 
             this.btnSen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.85714F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSen.Location = new System.Drawing.Point(160, 415);
+            this.btnSen.Location = new System.Drawing.Point(87, 225);
+            this.btnSen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSen.Name = "btnSen";
-            this.btnSen.Size = new System.Drawing.Size(136, 59);
+            this.btnSen.Size = new System.Drawing.Size(74, 32);
             this.btnSen.TabIndex = 1;
             this.btnSen.Text = "Sen";
             this.btnSen.UseVisualStyleBackColor = true;
+            this.btnSen.Click += new System.EventHandler(this.btnSen_Click);
             // 
             // btnIntro
             // 
             this.btnIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.85714F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIntro.Location = new System.Drawing.Point(338, 415);
+            this.btnIntro.Location = new System.Drawing.Point(185, 209);
+            this.btnIntro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnIntro.Name = "btnIntro";
-            this.btnIntro.Size = new System.Drawing.Size(316, 59);
+            this.btnIntro.Size = new System.Drawing.Size(199, 59);
             this.btnIntro.TabIndex = 1;
             this.btnIntro.Text = "Intro";
             this.btnIntro.UseVisualStyleBackColor = true;
+            this.btnIntro.Click += new System.EventHandler(this.btnIntro_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(155, 143);
+            this.label1.Location = new System.Drawing.Point(85, 77);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 44);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Matriz 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(333, 143);
+            this.label2.Location = new System.Drawing.Point(182, 77);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 44);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Matriz 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(638, 143);
+            this.label3.Location = new System.Drawing.Point(348, 77);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(173, 44);
+            this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Resultado";
             // 
             // lbMatriz1
             // 
             this.lbMatriz1.AutoSize = true;
-            this.lbMatriz1.Location = new System.Drawing.Point(155, 192);
+            this.lbMatriz1.Location = new System.Drawing.Point(85, 104);
+            this.lbMatriz1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbMatriz1.Name = "lbMatriz1";
-            this.lbMatriz1.Size = new System.Drawing.Size(64, 25);
+            this.lbMatriz1.Size = new System.Drawing.Size(35, 13);
             this.lbMatriz1.TabIndex = 2;
             this.lbMatriz1.Text = "label1";
             // 
             // lbMatriz2
             // 
             this.lbMatriz2.AutoSize = true;
-            this.lbMatriz2.Location = new System.Drawing.Point(333, 192);
+            this.lbMatriz2.Location = new System.Drawing.Point(182, 104);
+            this.lbMatriz2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbMatriz2.Name = "lbMatriz2";
-            this.lbMatriz2.Size = new System.Drawing.Size(64, 25);
+            this.lbMatriz2.Size = new System.Drawing.Size(35, 13);
             this.lbMatriz2.TabIndex = 2;
             this.lbMatriz2.Text = "label1";
             // 
             // lbResultado
             // 
             this.lbResultado.AutoSize = true;
-            this.lbResultado.Location = new System.Drawing.Point(638, 192);
+            this.lbResultado.Location = new System.Drawing.Point(348, 104);
+            this.lbResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbResultado.Name = "lbResultado";
-            this.lbResultado.Size = new System.Drawing.Size(64, 25);
+            this.lbResultado.Size = new System.Drawing.Size(35, 13);
             this.lbResultado.TabIndex = 2;
             this.lbResultado.Text = "label1";
             // 
@@ -160,9 +174,10 @@ namespace FormArreglosMultidim_G3_2022_I
             // 
             this.rdbDeg.AutoSize = true;
             this.rdbDeg.Checked = true;
-            this.rdbDeg.Location = new System.Drawing.Point(170, 25);
+            this.rdbDeg.Location = new System.Drawing.Point(93, 14);
+            this.rdbDeg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbDeg.Name = "rdbDeg";
-            this.rdbDeg.Size = new System.Drawing.Size(73, 29);
+            this.rdbDeg.Size = new System.Drawing.Size(45, 17);
             this.rdbDeg.TabIndex = 3;
             this.rdbDeg.TabStop = true;
             this.rdbDeg.Text = "Deg";
@@ -171,18 +186,19 @@ namespace FormArreglosMultidim_G3_2022_I
             // rdbRad
             // 
             this.rdbRad.AutoSize = true;
-            this.rdbRad.Location = new System.Drawing.Point(338, 25);
+            this.rdbRad.Location = new System.Drawing.Point(184, 14);
+            this.rdbRad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbRad.Name = "rdbRad";
-            this.rdbRad.Size = new System.Drawing.Size(119, 29);
+            this.rdbRad.Size = new System.Drawing.Size(70, 17);
             this.rdbRad.TabIndex = 3;
             this.rdbRad.Text = "Radianes";
             this.rdbRad.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 628);
+            this.ClientSize = new System.Drawing.Size(483, 340);
             this.Controls.Add(this.rdbRad);
             this.Controls.Add(this.rdbDeg);
             this.Controls.Add(this.lbResultado);
@@ -197,6 +213,7 @@ namespace FormArreglosMultidim_G3_2022_I
             this.Controls.Add(this.btnSen);
             this.Controls.Add(this.btnSuma);
             this.Controls.Add(this.txtbMatriz);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
